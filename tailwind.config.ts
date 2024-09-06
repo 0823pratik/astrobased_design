@@ -8,13 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        darkBg: "#1A1A1A",
-        lightText: "#F3F3F3",
-        accentColor: "#FFC857", // you can customize this color as needed
-      },
-      fontFamily: {
-        sans: ["Helvetica Neue", "Arial", "sans-serif"],
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
